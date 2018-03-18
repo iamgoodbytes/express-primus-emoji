@@ -6,6 +6,7 @@ exports.go = function(server) {
 
         spark.on('data', function (data) {
             primus.write(data);
+            primus.write({ whatever: 'youwant' });
         });
 
     });
