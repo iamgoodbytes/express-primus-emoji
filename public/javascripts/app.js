@@ -34,7 +34,7 @@ if(document.querySelector(".emoji__home")){
             var diff = parseInt( (now-lastVoteDate) / 1000 / 60 ) ;
             if(diff < 5)
             {
-                return false;
+                //return false;
             }
         }
         
