@@ -3,9 +3,10 @@ extends layout
 block content
   .app
     h1 How do you feel right now?
-    div.emoji
-      a(href="#" title="like shit") 💩
-      a(href="#" title="I'm so angry!") 😡
-      a(href="#" title="meh") 😐
-      a(href="#" title="wo-hoow") 😃
-      a(href="#" title="like a unicorn") 🦄 
+    div.emoji.emoji__home
+      a(href="#" class="emo__shit" title="like shit" data-emo="shit") 💩
+      a(href="#" class="emo__angry" title="I'm so angry!" data-emo="angry") 😡
+      a(href="#" class="emo__neutral" title="meh" data-emo="neutral") 😐
+      a(href="#" class="emo__happy" title="wo-hoow" data-emo="happy") 😃
+      a(href="#" class="emo__unicorn" title="like a unicorn" data-emo="unicorn") 🦄 
+  
