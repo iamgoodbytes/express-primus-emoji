@@ -1,8 +1,30 @@
+*
+{
+  box-sizing: border-box;
+}
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 2em;
+}
+
+.app
+{
+  text-align: center; 
+}
+
+.emoji
+{
+  font-size: 5em;
+}
+
+.emoji a
+{
+  text-decoration: none;
+  margin: 0.3em;
+  transition: font-size .5s; 
 }
